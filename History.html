@@ -11,17 +11,26 @@
           background-color: #f5f5f5;
         }
         .container {
-          max-width: 800px;
-          margin: 40px auto;
+          max-width: 1.5hv;
+          margin: 1.5hv auto;
         }
         .info-container {
-          position: relative;
-          top: 50px;
-          background-color: #fff;
-          padding: 40px; /* Increased padding to make the box bigger */
-          border: 1px solid #ddd;
-          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-          border-radius: 10px;
+      position: relative;
+      top: 50px;
+      background-color: #fff;
+      padding: 40px; /* Increased padding to make the box bigger */
+      border: 1px solid #ddd;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 10px;
+      display: inline-block; /* Add this to make the div inline-block */
+      width: auto; /* Set the width to fit the content */
+      max-width: 100%; /* Ensure it doesn't exceed the parent container's width */
+      overflow-x: hidden; /* Enable horizontal scrolling if content exceeds width */
+      overflow-y: auto; /* Hide vertical scrollbar */
+      word-wrap: break-word;
+      white-space: pre-wrap; /* Allow wrapping of preformatted text */
+  word-break: break-all;
+  text-align: justify;
         }
         h1 {
           font-size: 36px;
@@ -34,6 +43,7 @@
           line-height: 1.5;
           color: #666;
         }
+
       </style>
 </head>
   <body>
@@ -65,9 +75,37 @@
   
       <div class="container mt-5">
         <div class="info-container">
+
           <h1>History of the Indian Constitution</h1>
-          <p>The Indian Constitution is the supreme law of India, adopted on November 26, 1949. It is a comprehensive document that outlines the framework of the government, the relationship between the government and citizens, and the fundamental rights and duties of citizens.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet nulla auctor, vestibulum magna sed, convallis ex.</p>
+          <pre>The Indian Constitution was adopted on November 26, 1949, and came into effect on January 26, 1950, replacing the Government of India Act of 1935 as the governing document of India. The Constitution was drafted by the Constituent Assembly, which was established in 1946 to frame a new constitution for independent India.</p>
+
+          Key Timelines
+            
+            1946: Britain decides to grant independence to India, and the Cabinet Mission is dispatched to India to discuss the modalities for transfer of power.
+            August 14, 1947: Proposal for creation of committees is tabled.
+            August 29, 1947: Drafting Committee is established.
+            December 6, 1947: Constituent Assembly formally convenes for the first time, following elections, to start the process of writing a constitution.
+            November 4, 1947: Draft is finalized and submitted.
+            1948-1949: Constituent Assembly meets in sessions open to the public.
+            November 26, 1949: Constituent Assembly adopts the final draft, making it official.
+            January 26, 1950: Entry into force of the new constitution.
+            Committees of the Constituent Assembly
+            
+            Drafting Committee: Responsible for drafting the actual text of the Constitution, chaired by Dr. B.R. Ambedkar.
+            Provincial Constitution Committee: Drafted provisions related to state governments, chaired by Vallabhbhai Patel.
+            States Committee: Negotiated with princely states for their integration into the Indian Union, chaired by Jawaharlal Nehru.
+            Philosophical Structure
+            
+            The Objective Resolution, given by Jawaharlal Nehru on December 13, 1946, laid the philosophical structure of the Indian Constitution, which was passed on July 22, 1947.
+            Notable Events
+            
+            The Constituent Assembly’s first meeting took place on December 9, 1946, with 211 members, and Dr. Sachidanand Sinha as the first President. Later, Dr. Rajendra Prasad became the Permanent President.
+            The Constituent Assembly adopted the Constitution on November 26, 1949, and it came into effect on January 26, 1950.
+            Characteristics
+            
+            The Indian Constitution is a codified and enacted document, adopted by a single body, the Constituent Assembly.
+            It is a Sovereign Socialist Secular Democratic Republic with a parliamentary system of government.
+            The Constitution has undergone several amendments since its adoption, with the most recent being the 101st Amendment in 2018.</pre>
         </div>
       </div>
     </div>
